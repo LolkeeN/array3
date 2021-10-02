@@ -6,8 +6,3 @@ def createListFromInputNumbers(count):
         numbers.append(x)
         i = i + 1
     return numbers
-
-
-if __name__ == "__main__":
-    x = input("Enter amount of numbers")
-    print(createListFromInputNumbers(x))
